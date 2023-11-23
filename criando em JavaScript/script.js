@@ -1,32 +1,22 @@
 
 
+//Função para criar uma div com as propriedades fornecidas
+function createDiv(className, position ,left , top, bottom ,width , height, backgroundColor ){
+    var div = document.createElement('div')
+        div.className = className;
+        div.style.position = "absolute";
+        div.style.left = left;
+        div.style.top = top;
+        div.style.bottom = bottom
+        div.style.width = width;
+        div.style.height = height;
+        div.style.backgroundColor = backgroundColor      
+       
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+// Criando as divs com as classes e estilos correspondentes
+createDiv("top-left", "absolute", "0", "0", "15%", "40%", "#3498db");
 
 
 
@@ -34,7 +24,7 @@
 
 
 /*document.addEventListener("DOMContentLoaded", function () {
-    // Função para criar uma div com as propriedades fornecidas
+    Função para criar uma div com as propriedades fornecidas
     function createDiv(className, width, height, backgroundColor, borderColor, top, left) {
         var div = document.createElement("div");
         div.className = className;
@@ -48,7 +38,7 @@
         document.body.appendChild(div);
     }
 
-    // Criando as divs com as classes e estilos correspondentes
+     Criando as divs com as classes e estilos correspondentes
     createDiv("top-left", "15%", "40%", "#3498db", "10px solid rgb(0, 255, 98)", "0", "0");
     createDiv("bottom-left", "15%", "60%", "#db34b4", "10px solid blue", "40%", "0");
 
@@ -61,3 +51,42 @@
 
     createDiv("full-width", "15%", "100%", "#34495e", "10px solid rgb(255, 111, 0)", "0", "85%");
 });*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

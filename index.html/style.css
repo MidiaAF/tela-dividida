@@ -18,11 +18,11 @@ body {
 }
 
 .bottom-left{
-    position: absolute;     
-    top:40%;
-    bottom: 0;   
+    position: absolute; 
     width: 15%;
     height: 60%;   
+    top:40%;
+    bottom: 0;          
     background-color: #db34b4; 
     
     }
@@ -88,3 +88,7 @@ body {
     background-color: #34495e; 
    
 }
+
+
+
+/**/
